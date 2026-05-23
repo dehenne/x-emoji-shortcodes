@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gemoji": "^8.1.0"
+  },
+  "scripts": {
+    "build:emoji-map": "node scripts/build-emoji-map.mjs"
+  }
+}

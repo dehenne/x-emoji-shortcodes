@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "X Emojies",
+  "version": "0.1.0",
+  "description": "Replace emoji shortcodes like :party: while writing posts on X.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "src/emoji-map.js",
+        "src/content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
