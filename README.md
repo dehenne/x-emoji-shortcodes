@@ -1,10 +1,14 @@
-![X Emoji Shortcodes](assets/readme-header.svg)
+![X Emoji Shortcodes](assets/readme-header.png)
 
 # X Emoji Shortcodes
 
 Replace `:emoji:` shortcodes with real emojis while writing posts on X.
 
 The shortcode list is based on Gemoji, the widely used GitHub emoji dataset.
+
+## Disclaimer
+
+This module is vibe coded and provided as-is. Use it at your own risk.
 
 Example:
 
