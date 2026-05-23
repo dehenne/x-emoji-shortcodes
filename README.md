@@ -1,6 +1,6 @@
-# X Emojies
+# X Emoji Shortcodes
 
-Browser extension that replaces emoji shortcodes while writing posts on X.
+Replace `:emoji:` shortcodes with real emojis while writing posts on X.
 
 The shortcode list is based on Gemoji, the widely used GitHub emoji dataset.
 

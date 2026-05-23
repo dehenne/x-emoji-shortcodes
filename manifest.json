@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "X Emojies",
+  "name": "X Emoji Shortcodes",
   "version": "0.1.0",
-  "description": "Replace emoji shortcodes like :party: while writing posts on X.",
+  "description": "Replace :emoji: shortcodes with real emojis while writing posts on X.",
   "content_scripts": [
     {
       "matches": [
