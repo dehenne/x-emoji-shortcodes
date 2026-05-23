@@ -1,4 +1,4 @@
-![X Emoji Shortcodes](assets/readme-header.png)
+![X Emoji Shortcodes](assets/readme-header-v2.png)
 
 # X Emoji Shortcodes
 
