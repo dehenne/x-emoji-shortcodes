@@ -14,7 +14,7 @@ I missed a tiny nerdy feature on X: typing emojis with `:emoji:` shortcodes. I t
 
 ⚠️ This module is vibe coded and provided as-is. Use it at your own risk.
 
-Example:
+## Example
 
 ```text
 :party: -> 🥳
@@ -32,6 +32,10 @@ Example:
 - Adds practical aliases such as `:flag_de:` in addition to Gemoji's `:de:`.
 - Runs locally in the browser with no analytics and no external API calls.
 - Requires no extension permissions beyond the supported X/Twitter content pages.
+
+## Screenshot
+
+![Autocomplete dropdown in the X post composer](assets/screenshot-autocomplete.png)
 
 ## Install locally
 
