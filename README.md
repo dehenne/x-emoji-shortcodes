@@ -1,3 +1,5 @@
+![X Emoji Shortcodes](assets/readme-header.svg)
+
 # X Emoji Shortcodes
 
 Replace `:emoji:` shortcodes with real emojis while writing posts on X.
