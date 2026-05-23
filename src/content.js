@@ -395,6 +395,15 @@
     }
   }
 
+  function consumeAutocompleteKey(event) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    if (typeof event.stopImmediatePropagation === "function") {
+      event.stopImmediatePropagation();
+    }
+  }
+
   function handleKeyDown(event) {
     if (!autocomplete || autocomplete.popup.style.display === "none") {
       return;
@@ -405,27 +414,27 @@
     }
 
     if (event.key === "ArrowDown") {
-      event.preventDefault();
+      consumeAutocompleteKey(event);
       autocomplete.activeIndex = (autocomplete.activeIndex + 1) % autocomplete.suggestions.length;
       renderAutocomplete();
       return;
     }
 
     if (event.key === "ArrowUp") {
-      event.preventDefault();
+      consumeAutocompleteKey(event);
       autocomplete.activeIndex = (autocomplete.activeIndex - 1 + autocomplete.suggestions.length) % autocomplete.suggestions.length;
       renderAutocomplete();
       return;
     }
 
     if (event.key === "Enter" || event.key === "Tab") {
-      event.preventDefault();
+      consumeAutocompleteKey(event);
       applyAutocomplete(autocomplete.suggestions[autocomplete.activeIndex]);
       return;
     }
 
     if (event.key === "Escape") {
-      event.preventDefault();
+      consumeAutocompleteKey(event);
       hideAutocomplete();
     }
   }
