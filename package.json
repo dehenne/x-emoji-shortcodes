@@ -4,8 +4,9 @@
   },
   "scripts": {
     "build:emoji-map": "node scripts/build-emoji-map.mjs",
-    "test": "node --check src/content.js && node --check scripts/build-emoji-map.mjs && node --check scripts/package-extension.mjs && node scripts/test-shortcodes.mjs",
-    "package": "npm test && node scripts/package-extension.mjs"
+    "test": "node --check src/content.js && node --check scripts/build-emoji-map.mjs && node --check scripts/bump-version.mjs && node --check scripts/package-extension.mjs && node scripts/test-shortcodes.mjs",
+    "package": "npm test && node scripts/package-extension.mjs",
+    "version:bump": "node scripts/bump-version.mjs"
   },
   "name": "x-emoji-shortcodes",
   "version": "0.1.0",

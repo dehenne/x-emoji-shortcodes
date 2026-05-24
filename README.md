@@ -37,6 +37,10 @@ I missed a tiny nerdy feature on X: typing emojis with `:emoji:` shortcodes. I t
 
 ![Autocomplete dropdown in the X post composer](assets/screenshot-autocomplete.png)
 
+## Install from Browser Stores
+
+The extension is being prepared for Chrome Web Store and Firefox Add-ons distribution. Once published, install it from the matching store listing and pin it from the browser toolbar if desired.
+
 ## Install locally
 
 ### Chrome / Chromium
@@ -68,9 +72,15 @@ Run `npm run build:emoji-map` after updating `gemoji`.
 npm install
 npm test
 npm run package
+npm run version:bump -- 0.2.0
 ```
 
 The package command creates a browser-extension ZIP in `dist/`.
+
+## Store listing
+
+Store copy and asset references are in [docs/store-listing.md](docs/store-listing.md).
+The small promo image is [assets/promo-small.png](assets/promo-small.png).
 
 ## Privacy
 
