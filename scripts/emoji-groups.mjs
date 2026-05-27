@@ -17,6 +17,7 @@ export const emojiGroups = Object.freeze({
     "smiling_face_with_three_hearts",
     "heart_eyes",
     "star_struck",
+    "kissing_heart",
     "kissing",
     "relaxed",
     "kissing_closed_eyes",
@@ -139,7 +140,6 @@ export const emojiGroups = Object.freeze({
     "monkey",
   ]),
   "Hearts": Object.freeze([
-    "kissing_heart",
     "love_letter",
     "cupid",
     "gift_heart",

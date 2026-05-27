@@ -20,6 +20,7 @@ assert.equal(shortcodes.this_shortcode_should_not_exist, undefined);
 assert.equal(groups.party, "Smileys");
 assert.equal(groups.slightly_frowning_face, "Smileys");
 assert.equal(groups.frowning_face, "Smileys");
+assert.equal(groups.kissing_heart, "Smileys");
 assert.equal(groups.wave, "Hands");
 assert.equal(groups["+1"], "Hands");
 assert.equal(groups["-1"], "Hands");
