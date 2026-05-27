@@ -4,12 +4,12 @@
   },
   "scripts": {
     "build:emoji-map": "node scripts/build-emoji-map.mjs",
-    "test": "node --check src/content.js && node --check scripts/build-emoji-map.mjs && node --check scripts/bump-version.mjs && node --check scripts/package-extension.mjs && node scripts/test-shortcodes.mjs",
+    "test": "node --check src/content.js && node --check src/background.js && node --check scripts/emoji-groups.mjs && node --check scripts/build-emoji-map.mjs && node --check scripts/bump-version.mjs && node --check scripts/package-extension.mjs && node scripts/test-shortcodes.mjs",
     "package": "npm test && node scripts/package-extension.mjs",
     "version:bump": "node scripts/bump-version.mjs"
   },
   "name": "x-emoji-shortcodes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Replace :emoji: shortcodes with real emojis while writing posts on X.",
   "private": true
 }

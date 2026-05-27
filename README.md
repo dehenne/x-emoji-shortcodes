@@ -26,6 +26,7 @@ I missed a tiny nerdy feature on X: typing emojis with `:emoji:` shortcodes. I t
 
 - Replaces complete shortcodes like `:party:`, `:rocket:`, and `:fire:` while you write.
 - Shows an autocomplete dropdown while typing partial shortcodes like `:pa`.
+- Opens an emoji search layer with `Ctrl+Alt+.` or the extension icon, showing emojis grouped by category with a filter field and click-to-insert behavior, or copies the emoji when no composer is active.
 - Supports keyboard selection with Arrow Up, Arrow Down, Enter, Tab, and Escape.
 - Supports mouse selection from the suggestion dropdown.
 - Uses the Gemoji shortcode dataset with more than 2,300 generated aliases.

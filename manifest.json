@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "X Emoji Shortcodes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Replace :emoji: shortcodes with real emojis while writing posts on X.",
   "content_scripts": [
     {
@@ -31,5 +31,8 @@
       "48": "assets/icons/icon-48.png",
       "128": "assets/icons/icon-128.png"
     }
+  },
+  "background": {
+    "service_worker": "src/background.js"
   }
 }

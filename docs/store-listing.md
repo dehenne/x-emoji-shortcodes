@@ -16,6 +16,7 @@ The extension runs locally in your browser, does not use analytics, does not cal
 
 - Replace complete `:emoji:` shortcodes while writing posts on X.
 - See autocomplete suggestions while typing partial shortcodes.
+- Open the emoji search layer with `Ctrl+Alt+.` or the extension icon, browse emojis grouped by category, filter the full emoji list, and click an emoji to insert it at the saved composer position or copy it when no composer is active.
 - Use keyboard controls: Arrow Up, Arrow Down, Enter, Tab, and Escape.
 - Select suggestions with the mouse.
 - Use more than 2,300 generated shortcode aliases from Gemoji.

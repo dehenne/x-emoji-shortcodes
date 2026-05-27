@@ -30,5 +30,6 @@
 ## Project Notes
 
 - This is a Manifest V3 browser extension for X/Twitter composer emoji shortcodes.
+- The emoji search layer opens with `Ctrl+Alt+.` or the extension icon, groups emojis by generated search category, filters by shortcode text, and inserts the clicked emoji at the composer position saved before the layer opened, or copies it when no composer is active.
 - The extension should remain local-only: no analytics, no external API calls, and no broad permissions.
 - Keep generated package ZIPs in `dist/`; `dist/` and `*.zip` are ignored by git.
